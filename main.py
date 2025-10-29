@@ -60,6 +60,11 @@ app = FastAPI(
     ]
 )
 
+# setup logging
+
+
+
+
 @app.get("/")
 def root():
     return {'message': 'Data Summary Api is running ... '}
