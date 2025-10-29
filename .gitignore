@@ -1,0 +1,120 @@
+# =========================
+# Python / FastAPI Project
+# =========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Logs
+app.log
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.hypothesis/
+
+# FastAPI / Uvicorn specific
+*.db
+*.sqlite3
+*.pid
+
+# PyInstaller
+*.manifest
+*.spec
+
+# MyPy, Pyright, and Pylint caches
+.mypy_cache/
+.pyre/
+.pytype/
+.pylint.d/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Local configuration
+*.env
+*.ini
+*.cfg
+*.toml
+!pyproject.toml  # keep pyproject.toml (project config)
+!requirements.txt  # keep requirements.txt
+
+# Jupyter / notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# Static & build artifacts (optional)
+staticfiles/
+media/
+uploads/
+temp/
+tmp/
+logs/
+cache/
+*.bak
+
+# VSCode local settings
+.vscode/
+.history/
+*.code-workspace
+
+# Node modules (if frontend or Swagger UI assets)
+node_modules/
+
+# Poetry specific
+poetry.lock
+.pyproject.toml.venv
+
+# =========================
+# End of .gitignore
+# =========================
