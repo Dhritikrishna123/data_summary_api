@@ -1,0 +1,70 @@
+# ==========================
+# Python & FastAPI Project
+# ==========================
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+app.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# FastAPI auto-generated files (if using uvicorn reload or debug)
+*.pid
+*.db
+
+# Jupyter / notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode / JetBrains / PyCharm project files
+.vscode/
+.idea/
+*.iml
+
+# Environment variables / config
+.env
+.env.*
+*.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# OS / editor-specific files
+.DS_Store
+Thumbs.db
+
+# Migrations (optional — if using Alembic)
+#migrations/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
