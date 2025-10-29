@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-
+from app.utils.logging_config import setup_logging
 app = FastAPI(
     title="Data Summary API",
     description="""
@@ -61,7 +61,7 @@ app = FastAPI(
 )
 
 # setup logging
-
+logger = setup_logging().getLogger("DataSummary.API")
 
 
 
